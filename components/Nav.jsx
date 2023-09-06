@@ -34,8 +34,6 @@ const Nav = () => {
 				<p className='logo_text'>Promptopia</p>
 			</Link>
 
-			{console.log(session)}
-
 			{/* Desktop Navigation */}
 			<div className="sm:flex hidden">
 				{session?.user ? (
